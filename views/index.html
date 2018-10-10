@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Angular Starter</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular.js"></script>
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
+    
+  </head>
+  <body ng-app="myApp">
+    <div ng-controller="main">
+      <h1>The message: {{message}}</h1>
+      <br>
+      <p>The tasks: {{tasks}}</p>
+    
+
+	  <h2>Add New Task
+	  <input type="text" ng-model="task.name">
+	  <button ng-click="addTask(task)" type="button" class="btn btn-primary">Primary</button>
+	</div>
+  </body>
+</html>

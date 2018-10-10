@@ -1,0 +1,14 @@
+{
+	"name": "ngToDo",
+	"description": "To Do App",
+	"version": "0.0.1",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"body-parser": "*",
+		"cheerio": "^1.0.0-rc.2",
+		"express": "*",
+		"request": "^2.88.0"
+	}
+}
